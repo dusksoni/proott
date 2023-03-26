@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav{
+  transition: 0.3s ease-in-out;
+}
+.slick-slider{
+  position: initial !important;
+}
